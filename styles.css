@@ -1,10 +1,18 @@
-body {
-	margin-left: auto;
-    margin-right: auto;
+header {
 	width:  25%;
 	text-align: center;
-	background-color: lightblue;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
 }
+
+body {
+	background-color: lightblue;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
 
 h1 {
 	border: 6px solid darkgreen;
@@ -18,3 +26,23 @@ h2 {
 	border-radius: 40px 20px;
 }
 
+img {
+    border: .33rem solid #ddd;
+    border-radius: 10rem;
+    padding: 0rem;
+    width: 20rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.Neil_Appa_Text {
+	width: 25%;
+	font-size: 150%;
+	text-align: center;
+	color: red;
+	padding:  1rem;
+}
