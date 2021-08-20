@@ -1,43 +1,24 @@
-header {
-	width:  25%;
-	text-align: center;
-	display: block;
-	margin-left: auto; 
-	margin-right: auto;
-}
-
 body {
-	background-color: whitesmoke;
+	text-align: center;
 	margin-left: auto; 
 	margin-right: auto;
+
+	background-color: whitesmoke;
 }
 
 
-h1 {
+h1 span{
 	border: 6px solid darkgreen;
-	padding: 6px;
+}
+
+h2 span{
+	border: 6px solid lightblue;
+}
+
+span {
+	padding: 10px;
 	border-radius: 40px 20px;
-}
-
-h2 {
-	border: 3px dashed orange;
-	padding: 3px;
-	border-radius: 40px 20px;
-}
-
-img {
-    border: .33rem solid #ddd;
-    border-radius: 10rem;
-    padding: 0rem;
-    width: 20rem;
-}
-
-nav {
-	width: 25%;
-	font-size: 150%;
-	text-align: center;
-	color: red;
-	padding:  1rem;
+    display: inline-block;
 }
 
 
