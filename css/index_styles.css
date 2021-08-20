@@ -33,16 +33,20 @@ img {
     width: 20rem;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Neil_Appa_Text {
+nav {
 	width: 25%;
 	font-size: 150%;
 	text-align: center;
 	color: red;
 	padding:  1rem;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
