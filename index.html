@@ -6,16 +6,16 @@
 		<meta charset="UTF-8">
 
 		<script src="js/jquery.js"></script> 
-		<script>
-			$(document).ready(function() {
-   				$('#navigation').load('navigation_bar.html');
-   			});		
-		</script>
 	</head>
 	<body>
-		<header><h1> WHS Chess Club </h1></header>	
+		<header id="header">
+			<h1> WHS Chess Club </h1>
 
-		<ul id="navigation"></ul>
+			<script>
+				$(document).ready(function() { $('#header').load('navigation_bar.html'); });		
+			</script>
+		</header>	
+
 
 		<h2> This is Chess Club's Website! Make yourself at home :) </h2>
 	</body>
