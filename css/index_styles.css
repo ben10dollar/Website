@@ -7,10 +7,6 @@ body {
 }
 
 
-h1 span{
-	border: 6px solid darkgray;
-}
-
 h2 span{
 	border: 6px dashed lightgray;
 }

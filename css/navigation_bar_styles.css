@@ -1,5 +1,12 @@
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: goldenrod; 
+}
+
 nav {
-	padding-top: 10px;
 }
 
 nav ul {
@@ -21,14 +28,13 @@ nav a:hover {
 	background-color: whitesmoke;
 }
 
-header {
-	background-color: goldenrod; 
-	height: 130px;
+h1{
+	border: 6px solid darkgray;
+	padding: 10px;
+	border-radius: 40px 20px;
 }
 
 .logo {
-	float: left;
-
 	width: 80px;
 	height: auto;
 	padding: 10px;
