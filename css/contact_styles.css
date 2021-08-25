@@ -1,6 +1,5 @@
-.member_list {
-	/* color: #232824; */
-	color:  red;
+.member_list li {
+	color: #232824; 
 	text-align: left;
 	padding: 20px;
 }
