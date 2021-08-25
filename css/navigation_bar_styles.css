@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav li {	
-	display: inline-block;
+	display: inline;
 	margin: 20px;
 	padding: ((80*1.32+20)/2)px;
 }
