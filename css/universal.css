@@ -9,3 +9,7 @@ body {
 title, h2, p {
 	font-family: "Courier New", serif;
 }
+
+title {
+	font-size: 160%;
+}
