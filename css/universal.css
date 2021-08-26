@@ -6,6 +6,6 @@ body {
 	background-color: whitesmoke;
 }
 
-h1 {
+title, h2 {
 	font-family: "Courier New", serif;
 }
