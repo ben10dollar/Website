@@ -17,6 +17,9 @@ span {
     display: inline-block;
 }
 
+.lichess_problem {
+	float: right; 
+}
 
 
 
