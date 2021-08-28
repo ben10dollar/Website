@@ -7,11 +7,19 @@ body {
 }
 
 
-h2 span{
+/*h2 span{
 	border: 6px dashed lightgray;
 }
 
 span {
+	padding: 10px;
+	border-radius: 40px 20px;
+    display: inline-block;
+}*/
+
+h2 {
+	border: 6px dashed lightgray;
+	
 	padding: 10px;
 	border-radius: 40px 20px;
     display: inline-block;
