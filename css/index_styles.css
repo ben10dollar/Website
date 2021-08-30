@@ -1,8 +1,12 @@
 h2 {
-	border: 6px dashed lightgray;
+	border: 6px dashed #232824;
 	padding: 10px;
 	border-radius: 40px 20px;
     display: inline-flex;
+}
+
+h3 {
+	text-align: left;
 }
 
 iframe {

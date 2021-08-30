@@ -3,14 +3,22 @@ body {
 	margin-left: auto; 
 	margin-right: auto;
 
-/*	background: rgb(248,148,44);
-	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,148,44,1) 100%);*/
+	background: rgb(248,148,44);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,148,44,1) 100%);
 }
 
-h2, p {
+h2, h3, p {
 	font-family: "Courier New", serif;
 	font-weight: bolder;
-	font-size: 20px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 18px;
+	text-decoration: underline;
 }
 
 
