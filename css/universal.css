@@ -7,7 +7,7 @@ body {
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,148,44,1) 100%);*/
 }
 
-h2, p, body > ul {
+h2, p {
 	font-family: "Courier New", serif;
 	font-weight: bolder;
 	font-size: 20px;
