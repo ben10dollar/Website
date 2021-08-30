@@ -12,11 +12,6 @@
 
 }
 
-#page_container {
-	display: inline-block;
-	border-style: dashed;
-}
-
 img {
 	width: 200px;
 	height: auto;

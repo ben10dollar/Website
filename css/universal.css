@@ -13,3 +13,9 @@ title, h2, p {
 title {
 	font-size: 160%;
 }
+
+#page_container {
+	display: inline-block;
+	border: 6px solid #232824;
+	padding: 10px;
+}
