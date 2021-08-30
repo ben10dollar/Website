@@ -4,12 +4,12 @@
 	padding: 20px;
 }
 
-.cabinet_member_list {
+.member_list {
 
 }
 
-.member_list {
-
+span img{
+	display: inline;
 }
 
 img {

@@ -19,6 +19,13 @@ h3 {
 }
 
 
-
 .lichess_problem {
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }

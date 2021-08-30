@@ -1,11 +1,3 @@
-body {
-	text-align: center;
-	margin-left: auto; 
-	margin-right: auto;
-
-	background-color: whitesmoke;
-}
-
 h2 {
 	border: 6px dashed lightgray;
 	padding: 10px;
@@ -13,8 +5,9 @@ h2 {
     display: inline-flex;
 }
 
-.lichess_problem {
-	float: right; 
+iframe {
+	 display: block;
+	 padding: 10px;
 }
 
 
