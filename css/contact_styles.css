@@ -16,3 +16,13 @@ img {
 	width: 200px;
 	height: auto;
 }
+
+#discord_link {
+	font-family: "Apple Chancery", cursive;
+	font-size: 22px;
+
+	padding: 10px;
+}
+#discord_link a {
+	color: indigo;
+}	
