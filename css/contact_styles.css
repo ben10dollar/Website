@@ -5,7 +5,7 @@
 }
 
 .member_list {
-
+	display: flex;
 }
 
 span img{
@@ -21,7 +21,12 @@ img {
 	font-family: "Apple Chancery", cursive;
 	font-size: 22px;
 
+	padding: 15px;
+	display: inline-block;
+
+	border: 4px dashed #232824;
 	padding: 10px;
+	border-radius: 20px;
 }
 #discord_link a {
 	color: indigo;
