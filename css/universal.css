@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	text-align: center;
 	margin-left: auto; 
@@ -12,13 +16,21 @@ h2, h3, p {
 	font-weight: bolder;
 }
 
+h1 {
+	font-size: 30px;
+}
+
 h2 {
-	font-size: 22px;
+	font-size: 24px;
 }
 
 h3 {
 	font-size: 18px;
 	text-decoration: underline;
+}
+
+p {
+	font-size: 18px;
 }
 
 
