@@ -9,6 +9,10 @@ body {
 
 	background: rgb(248,148,44);
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,148,44,1) 100%);
+
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h2, h3, p {
