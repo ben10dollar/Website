@@ -1,3 +1,5 @@
+/* TAGS */
+
 html, body {
 	height: 100%;
 }
@@ -38,10 +40,19 @@ p {
 }
 
 
+/* IDs */
+
 #page_container {
 	display: inline-block;
 
 	border: 6px solid #232824;
 	border-radius: 10px;
 	padding: 10px;
+}
+
+
+/* CLASSES */
+
+.border_container {
+	padding: 15px;
 }
