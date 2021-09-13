@@ -54,7 +54,7 @@ img, a, iframe {
 
 
 .page_container {
-	display: inline-flex;
+	display: inline-block;
 }
 
 .col {
