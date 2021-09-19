@@ -1,41 +1,98 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> WHS Chess Club </title>
-		<link rel="stylesheet" href="css/index_styles.css">
-		<link rel="stylesheet" href="css/universal.css">
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WHS Chess Club</title>
 
-		<script src="js/jquery.js"></script> 
-		<script> $(document).ready(function() { $('#header').load('navigation_bar.html'); }); </script>
+		<link rel="stylesheet" href="css/universal.css">
+		<link rel="stylesheet" href="css/index.css">
 	</head>
-	<body>
-		<div class="page_container">
-		<div class="col_side">
-			USCF Links
-		</div>	
 
-		<div class="col">
-			<div id="header"></div>
+	<body id="homepage">
 
-			<h2>This is Chess Club's Website! Make yourself at home :)</h2>
+		<!-- tsparticles div dom -->
+	    <div id="tsparticles"></div>
 
-			<h3>Upcoming events: </h3>
-			<iframe class="calendar"
-				src="https://calendar.google.com/calendar/embed?src=8fmub1a0jh3krm7a14ij2bhmfg%40group.calendar.google.com&ctz=America%2FLos_Angeles" 
-				style="border: 0" width="800" height="600" frameborder="0" scrolling="no">	
-			</iframe>	
-			
-			<iframe class="lichess_problem" 
-				src="https://lichess.org/training/frame?theme=brown&bg=dark" 
-				style="width: 400px; height: 444px;" allowtransparency="true" frameborder="0">
-			</iframe>
+		<!-- <header> -->
+		<div class="content">
+			<h1 id="pageTopH1">WHS Chess Club Home</h1>
+
+			<div class="row">
+				<!-- #1 -->
+				<div id="homePageWhatsNew" class="col">
+					<h2 style="text-decoration: underline;">What's New:</h2>
+					<h3 id="whatsNewContent">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						<br>
+						<br>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					</h3>
+				</div>
+
+				<!-- #2 -->
+				<div id="pageTopImagesContainer">
+					<img src="assets/example.png" id="pageTopImage">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h3 id="h1">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					</h3>
+				</div>
+
+				<div class="col">
+					<img src="assets/example.png" id="centralImage">
+				</div>
+
+				<div class="col">
+					<h3 id="h1">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h3 id="h1">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					</h3>
+				</div>
+
+				<div class="col">
+					<h3 id="h1">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					</h3>
+				</div>
+
+				<div class="col">
+					<h3 id="h1">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="colLarge" style="display: flex;">
+					<div style="width: 40em"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3></div>
+					<iframe class="lichess_problem" 
+						src="https://lichess.org/training/frame?theme=brown&bg=dark" 
+						style="width: 400px; height: 444px;" allowtransparency="true" frameborder="0">
+					</iframe>
+				</div>	
+			</div>
+
 		</div>
 
-		<div class="col_side">
-			General Meeting Slideshows
-		</div>	
-		</div>
+
+	    <!-- Import cdn -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.34.1/tsparticles.min.js" integrity="sha512-IdXwFFWGz+dDvL+3k6w/U/e2Q+ZvCGl+4d2EgW8rhsUwppah4TCcGtN7yuQEMPWGEiEmM/hcvfLH1PYQaMZ2dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	    <!-- Import app.js from root directory -->
+	    <script src="js/particle_effect.js"></script>
+
 	</body>
+
 </html>
-	
