@@ -10,10 +10,6 @@
 	width: 40em;
 }
 
-#centralImage {
-	width: 10em;
-}
-
 #chessClubLogo {
 	align-self: center; 
 	margin: 0em 1em 0em 1em;
@@ -22,19 +18,19 @@
 	height: auto;
 }
 
-#topBar {
-}
-
 #pageTopH1 {
 	margin: 0;
-}
-
-#lichess_problem_OTD {
-	justify-content: center;
 }
 
 #pageTopCalendar {
 	border: .2em solid #232824;
 	border-radius: .5em; 
 	background-color: #e8ecfc;
+}
+
+.peopleImages {
+	width: 5em;
+}
+
+.members {
 }
