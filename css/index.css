@@ -22,10 +22,19 @@
 	height: auto;
 }
 
+#topBar {
+}
+
 #pageTopH1 {
 	margin: 0;
 }
 
 #lichess_problem_OTD {
 	justify-content: center;
+}
+
+#pageTopCalendar {
+	border: .2em solid #232824;
+	border-radius: .5em; 
+	background-color: #e8ecfc;
 }

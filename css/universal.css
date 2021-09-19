@@ -12,12 +12,15 @@
 
 /* ___FONT FAMILY___ */
 	h1 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 3em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 40px; }
-	h2 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 2em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 30px; }  
+	h2 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 2em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 30px; text-decoration: underline;}  
 	h3 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 1em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 22px; } 
 	p { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
 	blockquote { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
 	pre { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 /* __________ */
+
+html {
+}
 
 html, body {
 	min-height:100%;
@@ -34,7 +37,7 @@ img {
 }
 
 .content {
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 }
 
@@ -55,12 +58,6 @@ img {
     overflow:hidden;
 }
 
-#topBar {
-	align-items: center;
-	margin: auto;
-}
-
-
 /* ___COL SIZES___ */
 .colSmall {
 	width: 10em;
@@ -78,8 +75,17 @@ img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	align-self: center;
 }
 
 .row > * {
 	margin: 1em;
+}
+
+
+.emphasis {
+	font-size: 1.25em;
+	font-style: italic;
 }
