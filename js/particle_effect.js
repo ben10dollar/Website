@@ -5,10 +5,10 @@
 tsParticles.load("tsparticles", {
     particles: {
         number: {
-            value: 100
+            value: 125
         },
         color: {
-            value: "000000",
+            value: "ADD8E6",
             // animation: {
             //     enable: true,
             //     speed: 50,
@@ -31,7 +31,7 @@ tsParticles.load("tsparticles", {
         links: {
             enable: true,
             distance: 180,
-            color: "000000",
+            color: "ADD8E6",
             opacity: 1,
             width: 3
         },

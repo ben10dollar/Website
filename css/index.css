@@ -1,32 +1,5 @@
-.row {
-/*	display: -webkit-box;
-	display: -ms-flexbox;
-	-ms-flex-wrap: wrap;*/
-	
-	display: flex;
-	flex-wrap: wrap;
-
-	margin-right: 15px;
-	margin-left: 15px;
-}
-
-.row > div {
-	padding: 2em;
-}
-
-/*.col {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
-}*/
-
-
 #homePageWhatsNew {
 	display: block;
-	border: .2em dashed #232824;
-
-	width: 10em;
 }
 
 #whatsNewContent {
@@ -39,4 +12,20 @@
 
 #centralImage {
 	width: 10em;
+}
+
+#chessClubLogo {
+	align-self: center; 
+	margin: 0em 1em 0em 1em;
+
+	width: 3em;
+	height: auto;
+}
+
+#pageTopH1 {
+	margin: 0;
+}
+
+#lichess_problem_OTD {
+	justify-content: center;
 }

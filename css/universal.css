@@ -1,6 +1,49 @@
+/* ___OVERARCHING___ */
+.boxLayout {
+	background-color: #ADD8E6;
+
+	border: .2em solid #232824;
+	
+	padding: 1em;
+	border-radius: 1em;
+	box-shadow: .5em .5em .5em gray;
+}
+/* __________ */
+
+/* ___FONT FAMILY___ */
+	h1 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 3em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 40px; }
+	h2 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 2em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 30px; }  
+	h3 { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 1em; font-style: normal; font-variant: normal; font-weight: 700; line-height: 22px; } 
+	p { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+	blockquote { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+	pre { font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+/* __________ */
+
+html, body {
+	min-height:100%;
+	position: relative;
+}	
+
 body {
-	background-color: #EEEEEE;
+	background-color: #140F18;
 	text-align: left;
+} 
+
+header {
+	align-items: center;
+}
+
+img {
+	border-radius: 1em;
+}
+
+.content {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.content > * {
+	justify-content: center;
 }
 
 #tsparticles {
@@ -8,31 +51,34 @@ body {
     height: 100%;
     position: absolute;
     z-index: -1;
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
 }
 
-#pageTopH1 {
-	margin-left: 5em;
+
+/* ___COL SIZES___ */
+.colSmall {
+	width: 10em;
 }
 
-.col {
+.colMed {
 	width: 15em;
-	border: .2em solid #232824;
-	
-	padding: 1em;
-	border-radius: 1em;
-	box-shadow: .5em .5em .5em gray;
-
-	margin: 1em;
 }
-
 
 .colLarge {
 	width: 45em;
-	border: .2em solid #232824;
-	
-	padding: 1em;
-	border-radius: 1em;
-	box-shadow: .5em .5em .5em gray;
+}
+/* __________ */
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row > * {
 	margin: 1em;
 }
