@@ -1,0 +1,14 @@
+.mission_statement_container {
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mission_statement_container p {
+	text-align: center;
+	line-height:  120%;
+	font-size: 130%;
+}
+
+h2 {
+	text-decoration: underline;
+}

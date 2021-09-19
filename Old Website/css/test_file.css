@@ -1,0 +1,29 @@
+#test_h3 {
+	display: inline-flex;
+	padding-right: 0px;
+
+	border-style: dashed;
+	border-color: green;
+}
+
+#test_h3_2 > * {
+  vertical-align: middle;
+}
+
+h3 {
+	display: inline-flex;
+	border-style: dashed;
+	padding: 5px; /* this adds 5px to the sides, extending the border  */
+}
+
+
+.lichess_problem {
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

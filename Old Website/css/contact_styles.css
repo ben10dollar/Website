@@ -1,0 +1,33 @@
+.member_list li {
+	color: #232824; 
+	text-align: left;
+	padding: 20px;
+}
+
+.member_list {
+	display: flex;
+}
+
+span img{
+	display: inline;
+}
+
+img {
+	width: 200px;
+	height: auto;
+}
+
+#discord_link {
+	font-family: "Apple Chancery", cursive;
+	font-size: 22px;
+
+	display: inline-block;
+
+	border: 4px dashed #232824;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#discord_link a {
+	color: indigo;
+}	
