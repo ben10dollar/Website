@@ -1,15 +1,3 @@
-#homePageWhatsNew {
-	display: block;
-}
-
-#whatsNewContent {
-	display: block;
-}
-
-#pageTopImage {
-	width: 40em;
-}
-
 #chessClubLogo {
 	align-self: center; 
 	margin: 0em 1em 0em 1em;
@@ -19,7 +7,7 @@
 }
 
 #pageTopH1 {
-	margin: 0;
+	margin: 0em;
 }
 
 #pageTopCalendar {
@@ -33,4 +21,10 @@
 }
 
 .members {
+}
+
+#cabinetMembers {
+}
+
+#regularMembers {
 }
